@@ -1,0 +1,42 @@
+1.
+  The term "prompt" prompt refers to something in a program that prompts 
+  a user to do something.
+2.
+  You are supposed to use the >> operator.
+3.
+  1 cout << "Please input an integer value";
+  2 cin >> number;
+4.
+  a \n is called a literal. It serves to have a new line in the output.
+5 and 6
+    The reading of either a string or an int would be terminated by 
+    whitespace.
+    an object is a region of memory with a type that specifies what kind 
+    of information that can be placed in it.
+7. 
+  1 cout << "Hello, " << first_name << "!\n";
+
+8.
+   an object is a region of memory with a type that specifies what kind 
+    of information that can be placed in it.
+9. A litteral is value that can be assigned to a constant variable
+10. int, float, char, bool
+11. a variable is a named object
+12. a char is 1 byte, a int is 4 bytes, a double is 8 bytes
+13. bits
+14. = assignes a value and == is used for decision making for example:
+if (a == b) {
+...
+}
+15. Something that defines a variable
+16. when you initialize something it tells the compiler that it exists but 
+it does not have a established value yet, an assignment is when you give the object a value in memory.
+17. when you concatenate multiple strings together, add them together like you would with intergers or doubles
+18. This_little_pig, number, _this_is_ok, MineMineMine. you can't have a variable name that starts with a number, has a space in it, a question mark, a dollar sign in it.
+19.
+20. short but not to short that it isn't explanetory, not too long that it is
+laborious to type out, usually lower case.
+21.tpye safetey is the enforcement of using types the way they are supposed to be used. it is important to use a type the way it is supposed to be used so
+22. a double is a floating point number and a int is a integer. if a double 2.2 is converted into an int, it would just be 2 and loose its decimal.
+23. A conversion is safe if there will be nothing lost in conversion. for example char to an int , char to string, int to double.
+

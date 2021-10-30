@@ -1,21 +1,23 @@
 #include <iostream>
 #include <fstream>
 #include <cmath>
+#include <string>
+#include <cstring>
+#include <utility>
 
 using namespace std;
 
 ofstream hst;
-int hist ( long double a, char op, long double b, long double ans) {
-hst.open("history.txt", ios::app);
-	if (op == 'r') {
-		hst << "sqrt(" << b << ") = " << ans << '\n';
+void hist ( long double a, char op, long double b, long double ans) {
+	hst.open("history.txt", ios::app);
+		if (op == 'r') {
+			hst << "sqrt(" << b << ") = " << ans << '\n';
+		}
+		else {
+			hst << a << ' ' << op << ' ' << b << " = " << ans << '\n';
+		}
+	hst.close();
 	}
-	else {
-		hst << a << ' ' << op << ' ' << b << " = " << ans << '\n';
-	}
-hst.close();
-return 0;
-}
 long double add(long double a, long double b) {
 	long double ans;
 	ans = a + b;
